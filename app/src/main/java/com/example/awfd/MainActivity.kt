@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     override fun onRestart() {
         super.onRestart()
         val toast3 = Toast.makeText(applicationContext, "The app has been restarted!", duration)
-        toast3.setGravity(Gravity.CENTER, 0, 50)
         toast3.show()
     }
 
@@ -42,7 +41,6 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         val toast5 = Toast.makeText(applicationContext, "The app's work has been resumed!", duration)
-        toast5.setGravity(Gravity.START, 100, 50)
         toast5.show()
     }
 
